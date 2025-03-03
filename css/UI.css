@@ -1,0 +1,39 @@
+body {
+  background-color: #e0e3eb;
+  align-items: center;
+}
+.mainCont {
+  background-color: white;
+  /* height: 500px; */
+  max-width: 300px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 5%;
+  box-shadow: 4px 3px 8px;
+  padding: 10px 20px 20px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 9px;
+}
+.display {
+  width: 293px;
+  height: 50px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: right;
+  border: none;
+}
+.buttons button {
+  padding: 20px;
+  font-size: 20px;
+  /* border: none; */
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
